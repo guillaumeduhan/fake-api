@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/guillaumeduhan/node-firebase/issues"
   },
-  "homepage": "https://github.com/guillaumeduhan/node-firebase#readme"
+  "homepage": "https://github.com/guillaumeduhan/node-firebase#readme",
+  "devDependencies": {
+    "prettier-config-greenelab": "git+https://git@github.com/greenelab/prettier-config-greenelab.git"
+  }
 }
