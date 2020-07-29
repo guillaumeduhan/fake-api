@@ -7,9 +7,10 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon babel app.js"
   },
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
@@ -30,6 +31,11 @@
   },
   "homepage": "https://github.com/guillaumeduhan/node-firebase#readme",
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-cli": "^6.26.0",
     "prettier-config-greenelab": "git+https://git@github.com/greenelab/prettier-config-greenelab.git"
   }
 }
